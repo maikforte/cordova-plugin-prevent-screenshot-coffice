@@ -3,7 +3,11 @@ package com.coffice;
 import android.app.Activity;
 import android.view.WindowManager;
 
-import org.apache.cordova.*;
+import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.CallbackContext;
+import org.apache.cordova.CordovaInterface;
+import org.apache.cordova.CordovaWebView;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 
