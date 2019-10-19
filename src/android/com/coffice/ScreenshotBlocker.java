@@ -32,7 +32,7 @@ public class ScreenshotBlocker extends CordovaPlugin{
                         if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.HONEYCOMB) {
                             mContext.cordova.getActivity().getWindow().clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
                         }
-                        callbackContext.success("Success");
+                        callbackContext.success("Enabling Success");
                     }catch(Exception e){
                         callbackContext.error(e.toString());
                     }
@@ -50,7 +50,7 @@ public class ScreenshotBlocker extends CordovaPlugin{
                             mContext.cordova.getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
                                     WindowManager.LayoutParams.FLAG_SECURE);
                         }
-                        callbackContext.success("Success");
+                        callbackContext.success("Disabling Success");
                     }catch(Exception e){
                         callbackContext.error(e.toString());
                     }
