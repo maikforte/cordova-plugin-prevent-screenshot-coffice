@@ -31,7 +31,7 @@
         <source-file src="src/android/com/coffice/ScreenshotBlocker.java" target-dir="src/com/coffice"/>
     </platform>
 
-    <platform name="ios">
+    <!-- <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="screenshotName">
                 <param name="ios-package" value="ScreenshotBlocker"/>
@@ -42,7 +42,7 @@
         <header-file src="src/ios/ScreenshotBlocker.h"/>
         <source-file src="src/ios/ScreenshotBlocker.m"/>
         <header-file src="src/ios/ScreenRecordingDetector.h"/>
-        <source-file src="src/ios/ScreenRecordingDetector.m"/>
+        <source-file src="src/ios/ScreenRecordingDetector.m"/> -->
     </platform>
 
 </plugin>
