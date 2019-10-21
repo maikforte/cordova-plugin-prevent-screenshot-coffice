@@ -42,7 +42,7 @@
         <header-file src="src/ios/ScreenshotBlocker.h"/>
         <source-file src="src/ios/ScreenshotBlocker.m"/>
         <header-file src="src/ios/ScreenRecordingDetector.h"/>
-        <source-file src="src/ios/ScreenRecordingDetector.m"/> -->
-    </platform>
+        <source-file src="src/ios/ScreenRecordingDetector.m"/>
+    </platform> -->
 
 </plugin>
